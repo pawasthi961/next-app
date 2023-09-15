@@ -12,7 +12,7 @@ export default function Test(){
 
     const onFetch = () =>{
         fetch('http://localhost:3000/api/staticData',{method : 'GET'}).then((res) => res.json()).then((res)=>{
-            console.log(res.record)
+            console.log(res)
         })
 
     }
